@@ -5,4 +5,4 @@
 I spend my time contributing to open source and building at the intersection of data and intelligence.
 
 ### 🪐 Reach Me
-* **Tellonym:** [tunaxia](https://tellonym.me/tunaxia)
+* **Tellonym:** [Tunaxia](https://tellonym.me/tunaxia)
