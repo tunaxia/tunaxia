@@ -1,8 +1,8 @@
 ## Hi there 👋 I'm Tunaxia
 
-**Vibe Coder | Cloud, Data, GenAI & DevOps Engineer**
+**Vibe Coder | Cloud, Data Platform, GenAI & DevOps Engineer**
 
-I spend my time contributing to open source and building at the intersection of data and intelligence.
+I spend my time contributing to open source and working professionally on cloud infrastructure, automated pipelines, and intelligence.
 
 ### 🪐 Reach Me
 * **Tellonym:** [Tunaxia](https://tellonym.me/tunaxia)
