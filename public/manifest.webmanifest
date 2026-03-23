@@ -1,0 +1,17 @@
+{
+  "name": "Tunaxia | Vibe Coder | Cloud & GenAI Engineer",
+  "short_name": "Tunaxia",
+  "description": "Portfolio of Tunaxia, a Vibe Coder specializing in Cloud, Data Platforms, GenAI, and DevOps.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090b",
+  "theme_color": "#8b5cf6",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

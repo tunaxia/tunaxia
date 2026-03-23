@@ -33,6 +33,9 @@
     <meta property="twitter:image:width" content="1200" />
     <meta property="twitter:image:height" content="630" />
 
+    <link rel="manifest" href="/manifest.webmanifest">
+    <meta name="theme-color" content="#8b5cf6">
+
 
     <!-- Structured Data (JSON-LD) -->
     <script type="application/ld+json">
@@ -47,13 +50,263 @@
         "https://boto-tracks.tunaxia.com"
       ],
       "jobTitle": "Cloud, Data Platform, GenAI & DevOps Engineer",
-      "knowsAbout": ["Cloud Infrastructure", "DevOps", "Generative AI", "Data Platforms", "Open Source"],
+      "knowsAbout": [
+        "Cloud Infrastructure (AWS, GCP)",
+        "DevOps (Terraform, CI/CD, Kubernetes)",
+        "Generative AI (LLMs, Boto3, Python)",
+        "Data Platforms & Engineering",
+        "Web Development (TypeScript, React)"
+      ],
       "description": "Vibe Coder contributing to open source and working on automated pipelines and intelligence."
     }
     </script>
   </head>
   <body>
-    <div id="app"></div>
+    <header id="header">
+      <div class="container">
+        <nav>
+          <a href="/" class="logo" aria-label="Tunaxia Home">Tunaxia</a>
+          <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+              <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+              <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero">
+        <div class="container">
+          <div class="hero-content">
+            <div class="hero-image-wrapper reveal">
+              <img src="/src/assets/hero.svg" class="hero-image" alt="Tunaxia Avatar" width="160" height="160">
+              <div class="glow"></div>
+            </div>
+            <h1 class="reveal">Hi &nbsp; I'm <span class="highlight">Tunaxia</span></h1>
+            <p class="subtitle reveal">Vibe Coder | Cloud, Data Platform, GenAI & DevOps Engineer</p>
+            <div class="hero-actions reveal">
+              <a href="#projects" class="btn btn-primary">View Projects</a>
+              <a href="https://github.com/tunaxia" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="container">
+          <div class="section-header reveal">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+            <h2>About Me</h2>
+          </div>
+          <p class="about-text reveal">
+            I spend my time contributing to open source and working professionally on cloud infrastructure, automated pipelines, and intelligence. I specialize in building scalable data platforms and integrating Generative AI into modern DevOps workflows.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="container">
+          <div class="section-header reveal">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20h.01"></path><path d="M7 20h.01"></path><path d="M12 20h.01"></path><path d="M17 20h.01"></path><path d="M22 20h.01"></path><path d="M2 16h.01"></path><path d="M7 16h.01"></path><path d="M12 16h.01"></path><path d="M17 16h.01"></path><path d="M22 16h.01"></path><path d="M2 12h.01"></path><path d="M7 12h.01"></path><path d="M12 12h.01"></path><path d="M17 12h.01"></path><path d="M22 12h.01"></path><path d="M2 8h.01"></path><path d="M7 8h.01"></path><path d="M12 8h.01"></path><path d="M17 8h.01"></path><path d="M22 8h.01"></path><path d="M2 4h.01"></path><path d="M7 4h.01"></path><path d="M12 4h.01"></path><path d="M17 4h.01"></path><path d="M22 4h.01"></path></svg>
+            <h2>Technical Arsenal</h2>
+          </div>
+          
+          <div class="skills-grid">
+            <!-- GenAI & Intelligence -->
+            <div class="skill-category reveal">
+              <div class="category-header">
+                <svg class="icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10H12V2z"></path><path d="M12 12L2.69 7"></path><path d="M12 12l5.63 8.37"></path></svg>
+                <h3>GenAI & Intelligence</h3>
+              </div>
+              <div class="skill-tags">
+                <span class="skill-tag">OpenAI</span>
+                <span class="skill-tag">LangChain</span>
+                <span class="skill-tag">Hugging Face</span>
+                <span class="skill-tag">LlamaIndex</span>
+                <span class="skill-tag">Pinecone (Vector DB)</span>
+                <span class="skill-tag">Anthropic</span>
+              </div>
+            </div>
+
+            <!-- Cloud & Infrastructure -->
+            <div class="skill-category reveal">
+              <div class="category-header">
+                <svg class="icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+                <h3>Cloud & Infrastructure</h3>
+              </div>
+              <div class="skill-tags">
+                <span class="skill-tag">
+                  <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12.036 0c-3.143.003-6.177 1.255-8.414 3.475L1.442 5.654l1.378 1.417 2.18-2.179C6.913 2.981 9.423 1.996 12.036 2c5.523 0 10 4.477 10 10s-4.477 10-10 10c-2.613.004-5.123-.981-7.036-2.892l-2.18-2.179-1.378 1.417 2.18 2.179c2.237 2.22 5.271 3.472 8.414 3.475 6.627 0 12-5.373 12-12s-5.373-12-12-12zM7 12a5 5 0 1 1 10 0 5 5 0 0 1-10 0zm2 0a3 3 0 1 0 6 0 3 3 0 0 0-6 0z"/></svg>
+                  AWS</span>
+                <span class="skill-tag">
+                  <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M24 18.98s-1.07-1.392-1.07-1.392c-1.161-1.328-1.543-2.316-1.543-2.316v-5.223c0-1.84-.712-3.23-2.143-4.168-1.428-.937-3.391-1.405-5.885-1.405h-3.314c-2.494 0-4.456.468-5.885 1.405-1.43.938-2.143 2.328-2.143 4.168v5.223s-.38 .988-1.543 2.316c0 0-1.07 1.392-1.07 1.392a.6.6 0 00-.036.702c.112.184.31.298.536.298h23.2c.225 0 .424-.114.535-.298a.6.6 0 00-.035-.702zM12.601 20.353h-1.201a.601.601 0 110-1.202h1.201a.601.601 0 110 1.202z"/></svg>
+                  Kubernetes</span>
+                <span class="skill-tag">
+                  <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13.983 11.072h2.273c.495 0 .96.367.96.945a.996.996 0 0 1-.738.986l-2.495.471zM4.46 8.487h1.471a1.006 1.006 0 0 0 .96-.945 1.006 1.006 0 0 0-.96-.945H4.46a1.006 1.006 0 0 0-.96.945 1.006 1.006 0 0 0 .96.945zm6.973 2.585h1.516c.495 0 .96.367.96.945a.996.996 0 0 1-.738.986l-1.738.327zM20.94 10.666V4.24a.2.2 0 0 0-.2-.2h-4.303a.2.2 0 0 0-.177.108l-.203.352a.2.2 0 0 1-.177.108H8.12a.2.2 0 0 1-.177-.108l-.203-.352A.2.2 0 0 0 7.563 4.04H3.26a.2.2 0 0 0-.2.2v6.426c0 4.253 2.6 7.942 6.467 9.422.38.146.772.26 1.173.342a.2.2 0 0 0 .1-.383 1.2 1.2 0 0 1-.684-1.117 1.2 1.2 0 1 1 2.4 0 1.2 1.2 0 0 1-.684 1.117.2.2 0 0 0 .1.383c.401-.082.793-.196 1.173-.342a9.993 9.993 0 0 0 6.467-9.422zM7.103 8.487h1.471a1.006 1.006 0 0 0 .96-.945 1.006 1.006 0 0 0-.96-.945H7.103a1.006 1.006 0 0 0-.96.945 1.006 1.006 0 0 0 .96.945zm3.702 5.233c0 .356-.25.68-.616.793l-1.614.496-.101-.324 1.614-.496a.46.46 0 0 0 .317-.469V11.07h2.274c.495 0 .96.367.96.945a.996.996 0 0 1-.738.986l-2.096.395z"/></svg>
+                  Docker</span>
+                <span class="skill-tag">
+                  <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M11.666 0l-7.11 12.212h14.22L11.666 0zm7.11 12.212l-7.11 12.212 7.11-12.212zM4.556 12.212l7.11 12.212-7.11-12.212z"/></svg>
+                  Terraform</span>
+                <span class="skill-tag">Ansible</span>
+                <span class="skill-tag">ArgoCD</span>
+              </div>
+            </div>
+
+            <!-- CI/CD & Automation -->
+            <div class="skill-category reveal">
+              <div class="category-header">
+                <svg class="icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                <h3>CI/CD & Automation</h3>
+              </div>
+              <div class="skill-tags">
+                <span class="skill-tag">GitHub Actions</span>
+                <span class="skill-tag">Jenkins</span>
+                <span class="skill-tag">n8n</span>
+                <span class="skill-tag">GitLab CI</span>
+                <span class="skill-tag">CircleCI</span>
+              </div>
+            </div>
+
+            <!-- Security & DevSecOps -->
+            <div class="skill-category reveal">
+              <div class="category-header">
+                <svg class="icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                <h3>DevSecOps & Scanning</h3>
+              </div>
+              <div class="skill-tags">
+                <span class="skill-tag">Snyk</span>
+                <span class="skill-tag">SonarQube</span>
+                <span class="skill-tag">Checkov</span>
+                <span class="skill-tag">Trivy</span>
+                <span class="skill-tag">Postman</span>
+                <span class="skill-tag">Swagger</span>
+              </div>
+            </div>
+
+            <!-- Data & Platforms -->
+            <div class="skill-category reveal">
+              <div class="category-header">
+                <svg class="icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+                <h3>Data Platforms</h3>
+              </div>
+              <div class="skill-tags">
+                <span class="skill-tag">Apache Airflow</span>
+                <span class="skill-tag">Apache Kafka</span>
+                <span class="skill-tag">Apache Spark</span>
+                <span class="skill-tag">Databricks</span>
+                <span class="skill-tag">Snowflake</span>
+                <span class="skill-tag">Pandas</span>
+              </div>
+            </div>
+
+            <!-- Languages & Web -->
+            <div class="skill-category reveal">
+              <div class="category-header">
+                <svg class="icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                <h3>Languages & Frameworks</h3>
+              </div>
+              <div class="skill-tags">
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">Node.js</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">TypeScript</span>
+                <span class="skill-tag">React</span>
+                <span class="skill-tag">Django</span>
+                <span class="skill-tag">Flask</span>
+              </div>
+            </div>
+
+            <!-- Observability -->
+            <div class="skill-category reveal">
+              <div class="category-header">
+                <svg class="icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                <h3>Observability</h3>
+              </div>
+              <div class="skill-tags">
+                <span class="skill-tag">Prometheus</span>
+                <span class="skill-tag">Grafana</span>
+                <span class="skill-tag">Elasticsearch</span>
+                <span class="skill-tag">Logstash</span>
+                <span class="skill-tag">Kibana</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="container">
+          <div class="section-header reveal">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+            <h2>Featured Projects</h2>
+          </div>
+          <div class="project-grid reveal">
+            <div class="project-card">
+              <div class="project-content">
+                <h3>Boto-Tracks</h3>
+                <p>Boto Tracks is a modern, fast, and searchable interface for tracking changes, fixes, and features in the AWS SDK for Python (Botocore and Boto3).</p>
+                <div class="project-links">
+                  <a href="https://boto-tracks.tunaxia.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                    <span class="link-text">Visit Website</span>
+                    <svg class="icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                  </a>
+                  <a href="https://github.com/tunaxia/boto-tracks" target="_blank" rel="noopener noreferrer" class="project-link github" aria-label="Boto-Tracks GitHub">
+                    <svg class="icon-small" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                    <span class="link-text">GitHub</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="container">
+          <div class="section-header reveal">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+            <h2>Reach Me</h2>
+          </div>
+          <div class="contact-card reveal">
+            <p>Want to vibe together? Drop me a message or follow my journey!</p>
+            <div class="social-links-grid">
+              <a href="https://tellonym.me/tunaxia" target="_blank" rel="noopener noreferrer" class="social-item">
+                <svg class="icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                <span>Tellonym</span>
+              </a>
+              <a href="https://www.youtube.com/@tunaxia" target="_blank" rel="noopener noreferrer" class="social-item youtube">
+                <svg class="icon-small" viewBox="0 0 24 24" fill="currentColor"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.612 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+                <span>YouTube</span>
+              </a>
+              <a href="https://www.reddit.com/user/tunaxia/" target="_blank" rel="noopener noreferrer" class="social-item reddit">
+                <svg class="icon-small" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.5 15c0 1.381-1.119 2.5-2.5 2.5-1.381 0-2.5-1.119-2.5-2.5s1.119-2.5 2.5-2.5 2.5 1.119 2.5 2.5zm-4.5 0c0 1.381-1.119 2.5-2.5 2.5s-2.5-1.119-2.5-2.5 1.119-2.5 2.5-2.5 2.5 1.119 2.5 2.5zm10.74-3.541c-.417 0-.796.162-1.077.423-1.078-.771-2.527-1.258-4.13-1.308l.872-4.111 2.842.603c.046.724.647 1.294 1.38 1.294.764 0 1.385-.621 1.385-1.385s-.621-1.385-1.385-1.385c-.516 0-.965.285-1.205.706l-3.153-.67c-.161-.034-.323.059-.381.215l-.973 4.588c-1.637.016-3.123.504-4.227 1.297-.282-.266-.665-.432-1.087-.432-.874 0-1.585.711-1.585 1.585 0 .428.17.815.445 1.101-.01.109-.015.219-.015.33 0 2.227 2.464 4.038 5.49 4.038s5.491-1.811 5.491-4.038c0-.11-.005-.22-.014-.327.279-.286.452-.676.452-1.104 0-.874-.711-1.585-1.585-1.585z"/></svg>
+                <span>Reddit</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p>&copy; <span id="year"></span> Tunaxia.</p>
+          <div class="footer-links">
+            <a href="https://github.com/tunaxia" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.youtube.com/@tunaxia" target="_blank" rel="noopener noreferrer">YouTube</a>
+            <a href="https://www.reddit.com/user/tunaxia/" target="_blank" rel="noopener noreferrer">Reddit</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
