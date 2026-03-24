@@ -1,4 +1,4 @@
-## Hi there 👋 I'm Tunaxia
+## Hi there  I'm Tunaxia
 
 **Vibe Coder | Cloud, Data Platform, GenAI & DevOps Engineer**
 
